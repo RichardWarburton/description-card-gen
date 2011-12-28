@@ -1,0 +1,55 @@
+noun|syn|passion
+noun|syn|beloved
+noun|syn|dear
+noun|syn|dearest
+noun|syn|honey
+noun|syn|sexual love
+noun|syn|erotic love
+noun|syn|lovemaking
+noun|syn|making love
+noun|syn|love life
+noun|syn|concupiscence
+noun|syn|emotion
+noun|syn|eros
+noun|syn|loved one
+noun|syn|lover
+noun|syn|object
+noun|syn|physical attraction
+noun|syn|score
+noun|syn|sex
+noun|syn|sex activity
+noun|syn|sexual activity
+noun|syn|sexual desire
+noun|syn|sexual practice
+noun|ant|hate
+noun|usr|amour
+verb|syn|love
+verb|syn|enjoy
+verb|syn|roll in the hay
+verb|syn|make out
+verb|syn|make love
+verb|syn|sleep with
+verb|syn|get laid
+verb|syn|have sex
+verb|syn|know
+verb|syn|do it
+verb|syn|be intimate
+verb|syn|have intercourse
+verb|syn|have it away
+verb|syn|have it off
+verb|syn|screw
+verb|syn|jazz
+verb|syn|eff
+verb|syn|hump
+verb|syn|lie with
+verb|syn|bed
+verb|syn|have a go at it
+verb|syn|bang
+verb|syn|get it on
+verb|syn|bonk
+verb|syn|copulate
+verb|syn|couple
+verb|syn|like
+verb|syn|mate
+verb|syn|pair
+verb|ant|hate
