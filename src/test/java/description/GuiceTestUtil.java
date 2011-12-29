@@ -6,13 +6,10 @@ import com.google.inject.Module;
 
 public abstract class GuiceTestUtil {
 
-	protected static Injector injector = null;
-	
-	public synchronized static void init(Module ... modules) {
+	protected Injector injector = null;
+
+	protected GuiceTestUtil(Module ... modules) {
 		injector = Guice.createInjector(modules);
-	}
-	
-	public GuiceTestUtil() {
 		injector.injectMembers(this);
 	}
 	

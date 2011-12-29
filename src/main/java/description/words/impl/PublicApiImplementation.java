@@ -8,10 +8,11 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.Arrays;
 import java.util.List;
 
 import com.google.common.base.Function;
+import com.google.inject.Inject;
+import com.google.inject.name.Named;
 
 import description.words.ParseException;
 import description.words.RelationshipType;
@@ -22,9 +23,12 @@ import description.words.WordsAPI;
 
 class PublicApiImplementation implements WordsAPI {
 
+	@Inject
+	@Named("bht_api_key")
+	private String apiKey;
+	
 	@Override
 	public List<Word> getWords(String forWord) {
-		String apiKey = System.getProperty("bht_api_key");
 		if(apiKey == null)
 			throw new UnknownAPIKeyException();
 		
