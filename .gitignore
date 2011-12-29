@@ -4,3 +4,4 @@ enwiki-latest-pages-articles.xml
 .settings
 target
 word-dump
+src/main/resources/settings.properties
